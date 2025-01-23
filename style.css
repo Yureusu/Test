@@ -11,36 +11,36 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: salmon;
 }
 .signup-container{
-    height: 100%;
-    width: 100%;
-    background-color: salmon;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 32px;
+    min-height: 80%;
+    max-height: 80%;
+    min-width: 60%;
 }
 #signup-form{
     padding: 48px;
     background-color: black;
     display: flex;
-    border-radius: 18px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 12px;
 }
 #signup-form h3{
-    font-size: 24px;
+    font-size: 28px;
     color: white;
     padding: 12px;
 }
 #username{
     padding: 12px;
-    border-radius: 12px;
-    font-size: 12px;
+    font-size: 14px;
     width: 200px;
     border: none;
     outline: none;
@@ -58,29 +58,25 @@ body{
     font-size: 14px;
     color: white;
     padding: 6px;
-    align-self: flex-start;
-    margin-left: -6px;
     display: none;
+    align-self: flex-start;
 }
 #email{
     padding: 12px;
-    border-radius: 12px;
-    font-size: 12px;
+    font-size: 14px;
     width: 200px;
     border: none;
     outline: none;
 }
 #password{
     padding: 12px;
-    border-radius: 12px;
-    font-size: 12px;
+    font-size: 14px;
     width: 200px;
     border: none;
     outline: none;
 }
 #signup-btn{
     padding: 12px;
-    border-radius: 12px;
     font-size: 14px;
     width: 200px;
     cursor: pointer;
