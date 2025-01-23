@@ -1,2 +1,3 @@
 
-document.getElementById('btn').addEventListener('click', alert('Meow!'))
+document.getElementById('btn').addEventListener('click', 
+    function(){ alert('Meow!');});
