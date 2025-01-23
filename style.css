@@ -2,22 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    border: 2px solid red;
 }
-#btn1{
+.signup-container{
+    height: auto;
+    width: 90%;
+}
+#signup-form{
     padding: 12px;
     background-color: black;
-    color: white;
-    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#btn2{
-    padding: 12px;
-    background-color: black;
-    color: white;
-    font-size: 18px;
-}
-#hello{
-    display: none;
-    color: tomato;
+#signup-form h3{
     font-size: 24px;
+    color: white;
+}
+#username{
     padding: 12px;
+    border: 12px;
+    font-size: 12px;
+    width: 200px;
+}
+#email{
+    padding: 12px;
+    border: 12px;
+    font-size: 12px;
+    width: 200px;
+}
+#password{
+    padding: 12px;
+    border: 12px;
+    font-size: 12px;
+    width: 200px;
+}
+#signup-btn{
+    padding: 12px;
+    border: 12px;
+    font-size: 12px;
+    width: 200px;
 }
