@@ -1,1 +1,4 @@
-alert('Meow');
+
+addEventListener ('click');{
+    alert('Meow');
+}
