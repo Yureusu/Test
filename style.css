@@ -5,3 +5,9 @@
     color: white;
     background-color: black;
 }
+#btn{
+    padding: 12px;
+    background-color: aqua;
+    color: black;
+    font-size: 18px;
+}
