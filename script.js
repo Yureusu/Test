@@ -1,3 +1,7 @@
 
 document.getElementById('btn').addEventListener('click', 
-    function(){ alert('Meow!');});
+    function(){ alert('Meow!');}, myFunction);
+
+function myFunction() {
+    alert('Wassup');
+}
